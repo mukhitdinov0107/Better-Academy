@@ -39,6 +39,16 @@ ul li:hover{
     background-image: url("../img/rectangle.png");
     background-repeat: no-repeat;
 }
+.boy_img{
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example {
+    0%   {left:-1000px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
 .image_block{
     max-width: 55%;
 }
@@ -82,5 +92,4 @@ ul li:hover{
     margin-top: 20px;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
-
 }
