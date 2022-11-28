@@ -45,8 +45,8 @@ ul li:hover{
     animation-duration: 2s;
 }
 @keyframes example {
-    0%   {left:-1000px; top:0px;}
-    100% { left:0px; top:0px;}
+    0%   {left:-1000px; top:0;}
+    100% { left:0; top:0;}
 }
 
 .image_block{
@@ -92,4 +92,39 @@ ul li:hover{
     margin-top: 20px;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
+}
+.choosing{ 
+    width: 100%;
+    height: 900px;
+}
+.choosing_text{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.choosing_text h2{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+.choosing_text p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 20px;
+}
+.courses{
+    display: flex;
+    justify-content: space-around;
+}
+.btc{
+    height: 400px;
+    width: 276px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 84px;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-image: linear-gradient(to top, #202246, #282B57);
+    border: 3px solid #323465;
 }
