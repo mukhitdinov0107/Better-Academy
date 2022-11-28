@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: Inter, sans-serif;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -11,7 +13,6 @@
 }
 .logo h2{
     color: #C7CAFE;
-    font-family: sans-serif;
 }
 .navbar{
     height: 90px;
@@ -24,7 +25,6 @@ ul li{
     display: inline;
     margin-left: 20px;
     color: rgba(255, 255, 255, 0.6);
-    font-family: sans-serif;
     cursor: pointer;
 }
 ul li:hover{
@@ -60,13 +60,11 @@ ul li:hover{
 }
 .text_block h1{
     font-size: 48px;
-    font-family: sans-serif;
     color: rgba(255, 255, 255, 0.8);
     margin-top: 100px;
 }
 .text_block p{
     font-size: 18px;
-    font-family: sans-serif;
     color: white;
     margin-top: 30px;
 }
@@ -81,12 +79,10 @@ ul li:hover{
     flex-direction: column;
     justify-content: center;
     font-size: 20px;
-    font-family: sans-serif;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.7);
 }
 .opp_block p{
-    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     margin-top: 20px;
@@ -100,11 +96,9 @@ ul li:hover{
 .choosing_text{
     width: 100%;
     text-align: center;
-    font-family: sans-serif;
 }
 .choosing_text h2{
     color: #fff;
-    font-family: sans-serif;
     font-size: 36px;
 }
 .choosing_text p{
@@ -127,4 +121,35 @@ ul li:hover{
     padding-top: 10px;
     background-image: linear-gradient(to top, #202246, #282B57);
     border: 3px solid #323465;
+}
+.ielts_description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ielts_description h3{
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.ielts_description p{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+}
+.joinbtn{
+    width: 120px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    background: #F5443B;
+    border-radius: 6px;
+    color: white;
+}
+.joinbtn:hover{
+    background: #660700FF;
+    transition: 0.2s;
 }
